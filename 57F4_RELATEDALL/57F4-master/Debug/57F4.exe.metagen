@@ -1,0 +1,58 @@
+  My57F4.ClientDetails.resources - Embedded, ContainedInManifestFile, 
+  My57F4.StockTransferAdd.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly 57F4, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class My57F4.GlobalID: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 prjID : Public, Static
+    Int32 vchno : Public, Static
+Class My57F4.SerialNo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Serialno : Public, Static
+Class My57F4.countRows: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 countR : Public, Static
+Class My57F4.CommonFunction: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetData(String): PrivateScope, Public, Static, HideBySig
+    GetMaxID(): PrivateScope, Public, Static, HideBySig
+    GetMaxVchNo(): PrivateScope, Public, Static, HideBySig
+    checkRecord(String): PrivateScope, Public, Static, HideBySig
+Class My57F4.ClientDetails: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.ArrayList NameValues : Public, Static
+Class My57F4.StockTransferAdd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Diagnostics.Process myProcess : Public
+    System.Diagnostics.Process myProcess2 : Public
+    System.String date : Public
+    Int32 value : Public, Static
+    Boolean flag : Public, Static
+    Int32 Del : Public, Static
+    Int32 Srno : Public, Static
+    Int32 no : Public, Static
+    System.Collections.ArrayList VchValues : Public, Static
+    System.Collections.ArrayList DelList : Public, Static
+  Methods:
+    SetFlag(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig

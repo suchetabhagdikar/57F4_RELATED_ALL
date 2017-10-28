@@ -1,0 +1,9 @@
+﻿  ClientDetails.cpp
+  StockTransferAdd.cpp
+c:\users\s\desktop\57f4-master\StockTransferAdd.h(2191): warning C4101: 'text': unreferenced local variable
+c:\users\s\desktop\57f4-master\StockTransferAdd.h(6172): warning C4101: 'e': unreferenced local variable
+c:\users\s\desktop\57f4-master\StockTransferAdd.h(6212): warning C4101: 'e': unreferenced local variable
+c:\users\s\desktop\57f4-master\StockTransferAdd.h(6827): warning C4101: 'e': unreferenced local variable
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  57F4.vcxproj -> C:\Users\s\Desktop\57F4-master\Debug\57F4.exe
+  57F4.vcxproj -> C:\Users\s\Desktop\57F4-master\Debug\57F4.pdb (Full PDB)
